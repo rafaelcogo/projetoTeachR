@@ -1,0 +1,75 @@
+/* Font padrão */
+
+@font-face {
+  font-family: "Lato" "Lato Bold";
+  src: url("../Fonts/Lato/Lato-Regular.ttf");
+  src: url("../Fonts/Lato/Lato-Bold.ttf");
+}
+
+/* Reset do CSS */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  /* background-color: #fafafa; */
+  color: #000;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Padrão de cores do Site */
+
+:root {
+  --verde: rgba(64, 197, 161); /* #40c5a1; */
+  --verdeTranspa: rgba(
+    64,
+    197,
+    161,
+    0.7
+  ); /* Verde com Transparência para o rodapé*/
+  --azul: rgba(41, 187, 227); /* #29bbe3; */
+  --laranja: rgba(245, 97, 84); /* #f56154; */
+  --Cinza: rgba(85, 86, 82); /* #555652; */
+  --Cinza-Claro: rgba(213, 215, 215); /* #d5d7d7; */
+  --Areia: rgba(240, 240, 235); /* #f0f0eb; */
+}
+
+/* Alinhamento */
+
+.center {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Ajusta a altura da página */
+
+section {
+  height: 92.5vh;
+  text-align: center;
+  font-size: 16px;
+  color: var(--Cinza);
+}

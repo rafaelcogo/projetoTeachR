@@ -1,0 +1,13 @@
+.home {
+  height: 92.5vh;
+  background: url(../imagens/Fundo\ Home.jpg) top no-repeat;
+}
+
+/* Logo da pagina home */
+.logo {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 18rem 0rem 7rem 6rem;
+}

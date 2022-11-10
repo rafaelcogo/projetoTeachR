@@ -1,0 +1,71 @@
+.imgCadastro {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.cadastro {
+  margin-top: 6rem;
+  color: #555652;
+  text-align: center;
+  font-weight: 200;
+}
+
+.cadastroAlign {
+  height: 80vh;
+  text-align: center;
+  font-size: 16px;
+  color: var(--Cinza);
+}
+
+label {
+  display: flex;
+  color: #555652;
+  margin: 0.1rem;
+}
+
+fieldset {
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #555652;
+  height: 30px;
+}
+
+::placeholder {
+  color: var(--Cinza);
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.enviar {
+  width: 20%;
+  margin: 10px;
+  padding: 5px;
+  background-color: #555652;
+  color: #f0f0eb;
+  border-radius: 5px;
+}
+
+.enviar:hover {
+  width: 20%;
+  margin: 10px;
+  padding: 5px;
+  color: #f0f0eb;
+  border-radius: 5px;
+  background-color: #f56154;
+}
+
+button {
+  align-items: center;
+  border: none;
+}
+.btnCadastrar {
+  text-align: center;
+}
